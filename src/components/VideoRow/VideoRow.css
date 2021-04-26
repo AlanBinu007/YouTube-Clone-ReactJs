@@ -1,0 +1,35 @@
+.videorow {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videorow > img {
+    object-fit: contain;
+    width: 246px;
+    height: 138px;
+}
+
+.videorow__text > * {
+    margin: 0px;
+}
+
+.videorow__text {
+    margin-left: 14px
+}
+
+.videorow__text > h3 {
+    margin-top: 8px;
+}
+
+.videorow__description {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #606060
+}
+
+.videorow__headline {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #606060;
+}
